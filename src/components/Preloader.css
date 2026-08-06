@@ -1,0 +1,112 @@
+/* ===== Minimal Gliding Bar Preloader Overlay ===== */
+.preloader-overlay.custom-minimal-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background-color: var(--header-footer-color, #f2f0eb); /* Matching grey background canvas */
+  color: var(--text-color, #111111);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.loader-center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 36px;
+  padding: 0 20px;
+}
+
+/* Brand Typography Stack matching header logo */
+.loader-brand-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.loader-logo-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-sans, "Poppins", sans-serif);
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--text-color, #111111);
+  line-height: 1;
+}
+
+.loader-square-icon {
+  font-size: 0.85rem;
+  color: var(--text-color, #111111);
+  opacity: 0.8;
+}
+
+.loader-brand-name {
+  font-family: var(--font-sans, "Poppins", sans-serif);
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+
+.loader-sub-brand {
+  font-family: var(--font-sans, "Poppins", sans-serif);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--text-color, #111111);
+  opacity: 0.65;
+  margin-top: 4px;
+}
+
+.loader-tagline {
+  font-family: var(--font-sans, "Poppins", sans-serif);
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-color, #111111);
+  opacity: 0.85;
+}
+
+/* Horizontal Track Line with Center Gliding Bar */
+.loader-track-line {
+  position: relative;
+  width: 320px;
+  height: 1.5px;
+  background-color: rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+
+/* Small Black Gliding Bar in Center */
+.loader-gliding-bar {
+  position: absolute;
+  width: 14px;
+  height: 3.5px;
+  background-color: var(--text-color, #111111);
+  border-radius: 2px;
+  will-change: transform;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .loader-sub-brand {
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+  }
+
+  .loader-tagline {
+    font-size: 0.58rem;
+    letter-spacing: 0.16em;
+  }
+
+  .loader-track-line {
+    width: 240px;
+  }
+}
