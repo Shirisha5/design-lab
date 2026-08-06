@@ -1,10 +1,4 @@
-import {
-  FaGithub,
-  FaLinkedinIn,
-  FaInstagram,
-  FaBehance,
-  FaEnvelope,
-} from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 export default function LabFooter() {
   return (
