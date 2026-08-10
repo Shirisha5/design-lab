@@ -15,8 +15,39 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "animal-kingdom",
+    id: "portfolio",
     experimentNo: "EXPERIMENT_001",
+    title: "KRONOS MINIMA",
+    tagline:
+      "An interactive portfolio journey through a world beyond the ordinary.",
+    thumbnail: "/Work/portfolio/s1.png",
+    screenshots: [
+      "/Work/portfolio/s1.png",
+      "/Work/portfolio/s2.png",
+      "/Work/portfolio/s3.png",
+      "/Work/portfolio/s4.png",
+      "/Work/portfolio/s5.png",
+      "/Work/portfolio/s6.png",
+      "/Work/portfolio/s7.png",
+    ],
+    liveUrl: "https://animal-kingdom-archive.vercel.app/",
+    status: "Live",
+    description: `Kronos Minima is an immersive 3D portfolio set on a futuristic planet, designed as an interactive journey through four distinct stations — Home, Work, Lab, and About. Built with Three.js, React Three Fiber, and GSAP, each environment reveals a different part of the developer's work, experiments, and story.`,
+    techStack: [
+      { name: "Three.js", icon: "🟢" },
+      { name: "GLSL", icon: "🟣" },
+    ],
+    highlights: [
+      "Four interactive stations",
+      "Immersive spatial navigation",
+      "Cinematic camera transitions",
+      "Smooth Scroll Transitions",
+      "Interactive Lab Core",
+    ],
+  },
+  {
+    id: "animal-kingdom",
+    experimentNo: "EXPERIMENT_002",
     title: "Animal Kingdom",
     tagline: "An interactive wildlife archive ",
     thumbnail: "/Work/animalKingdom/EnterScreen.png",
@@ -46,7 +77,7 @@ export const projects: Project[] = [
   },
   {
     id: "apex-interceptor",
-    experimentNo: "EXPERIMENT_002",
+    experimentNo: "EXPERIMENT_003",
     title: "Apex Interceptor",
     tagline: "A cinematic vehicle experience",
     thumbnail: "/Work/apex/Apex2.png",
@@ -77,7 +108,7 @@ export const projects: Project[] = [
   },
   {
     id: "flutter",
-    experimentNo: "EXPERIMENT_003",
+    experimentNo: "EXPERIMENT_004",
     title: "Flutter",
     tagline: "An interactive butterfly artwork",
     thumbnail: "/Work/Flutter/Flutter.png",
@@ -101,7 +132,7 @@ export const projects: Project[] = [
   },
   {
     id: "spirit-world",
-    experimentNo: "EXPERIMENT_004",
+    experimentNo: "EXPERIMENT_005",
     title: "The Art of Ghibli",
     tagline: "An immersive visual exploration of Studio Ghibli art",
     thumbnail: "/Work/spiritWorld/home.png",
@@ -132,7 +163,7 @@ export const projects: Project[] = [
   },
   {
     id: "lumi",
-    experimentNo: "EXPERIMENT_005",
+    experimentNo: "EXPERIMENT_006",
     title: "Luminescent",
     tagline: "An audio-reactive WebGL experience",
     thumbnail: "/Work/Luminescent/Luminescent.png",
@@ -155,7 +186,7 @@ export const projects: Project[] = [
   },
   {
     id: "cine-web",
-    experimentNo: "EXPERIMENT_006",
+    experimentNo: "EXPERIMENT_007",
     title: "Golden Hour",
     tagline: "A cinematic web experience",
     thumbnail: "/Work/cine/p2.png",
@@ -179,7 +210,7 @@ export const projects: Project[] = [
   },
   {
     id: "cine-mad",
-    experimentNo: "EXPERIMENT_007",
+    experimentNo: "EXPERIMENT_008",
     title: "CineMad",
     tagline: "A movie recommendation website",
     thumbnail: "/Work/Cinemad/p4.png",
@@ -206,7 +237,7 @@ export const projects: Project[] = [
   },
   {
     id: "tourism",
-    experimentNo: "EXPERIMENT_008",
+    experimentNo: "EXPERIMENT_009",
     title: "Tourism Website",
     tagline: "Experience the soul of Tamil Nadu through every journey.",
     thumbnail: "/Work/Tourism/t1.png",
