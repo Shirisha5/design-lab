@@ -30,7 +30,7 @@ export const projects: Project[] = [
       "/Work/portfolio/s6.png",
       "/Work/portfolio/s7.png",
     ],
-    liveUrl: "https://animal-kingdom-archive.vercel.app/",
+    liveUrl: "https://shirishac-dev.vercel.app/",
     status: "Live",
     description: `Kronos Minima is an immersive 3D portfolio set on a futuristic planet, designed as an interactive journey through four distinct stations — Home, Work, Lab, and About. Built with Three.js, React Three Fiber, and GSAP, each environment reveals a different part of the developer's work, experiments, and story.`,
     techStack: [
