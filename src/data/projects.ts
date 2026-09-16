@@ -46,8 +46,71 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "animal-kingdom",
+    id: "luxe-interior",
     experimentNo: "EXPERIMENT_002",
+    title: "Luxe Interior",
+    tagline: "Where architectural precision becomes quiet dwelling",
+    thumbnail: "/Work/Luxe/lx2.png",
+    screenshots: [
+      "/Work/Luxe/lx1.png",
+      "/Work/Luxe/lx2.png",
+      "/Work/Luxe/lx3.png",
+      "/Work/Luxe/lx4.png",
+      "/Work/Luxe/lx5.png",
+      "/Work/Luxe/lx6.png",
+      "/Work/Luxe/lx7.png",
+    ],
+    liveUrl: "https://luxe-interior.vercel.app/",
+    status: "Live",
+    description:
+      `The Luxe Interior web application is an interactive, editorial 3D architectural portfolio
+engineered with React 19, Three.js, React Three Fiber (R3F), GSAP, and Studio Freight
+Lenis. It showcases a Scandinavian modern interior pavilion through real-time procedural
+wireframes, custom GLSL.`,
+    techStack: [
+      { name: "Three.js", icon: "🟢" },
+      { name: "GLSL", icon: "🟣" },
+    ],
+    highlights: [
+      "Three.js & Scene Architecture",
+      "Procedural wireframing technnique",
+      " Animation & Scroll Approach",
+      "Custom Shader Techniques (GLSL)",
+      "Atmospheric Day/Night Interpolation",
+    ],
+  },
+  {
+    id: "pixie-bloomlands",
+    experimentNo: "EXPERIMENT_003",
+    title: "Pixie Bloomlands",
+    tagline: "An Interactive 3D WebGL Storytelling Experience",
+    thumbnail: "/Work/pixie/PB6.png",
+    screenshots: [
+      "/Work/pixie/PB1.png",
+      "/Work/pixie/PB2.png",
+      "/Work/pixie/PB3.png",
+      "/Work/pixie/PB4.png",
+      "/Work/pixie/PB5.png",
+      "/Work/pixie/PB6.png",
+    ],
+    liveUrl: "https://pixiebloomlands.vercel.app/",
+    status: "Live",
+    description:
+      `Pixie Bloomlands is an immersive, browser-based 3D microsite built with React Three Fiber and GSAP. Designed with an enchanted dark-fantasy aesthetic, the project guides visitors through a stylized woodland environment using scroll-driven camera flight paths, custom WebGL lighting, and real-time interactive low-poly assets.`,
+    techStack: [
+      { name: "Three.js", icon: "🟢" },
+      { name: "GLSL", icon: "🟣" },
+    ],
+    highlights: [
+      "Scroll-Driven Camera Choreography",
+      "Low-Poly 3D Environment,Whimsical Mushroom Cottages",
+      "Real-Time WebGL Shaders & Lighting",
+      "Interactive 3D Butterfly Guide",
+    ],
+  },
+  {
+    id: "animal-kingdom",
+    experimentNo: "EXPERIMENT_004",
     title: "Animal Kingdom",
     tagline: "An interactive wildlife archive ",
     thumbnail: "/Work/animalKingdom/EnterScreen.png",
@@ -77,7 +140,7 @@ export const projects: Project[] = [
   },
   {
     id: "apex-interceptor",
-    experimentNo: "EXPERIMENT_003",
+    experimentNo: "EXPERIMENT_005",
     title: "Apex Interceptor",
     tagline: "A cinematic vehicle experience",
     thumbnail: "/Work/apex/Apex2.png",
@@ -108,7 +171,7 @@ export const projects: Project[] = [
   },
   {
     id: "flutter",
-    experimentNo: "EXPERIMENT_004",
+    experimentNo: "EXPERIMENT_006",
     title: "Flutter",
     tagline: "An interactive butterfly artwork",
     thumbnail: "/Work/Flutter/Flutter.png",
@@ -132,7 +195,7 @@ export const projects: Project[] = [
   },
   {
     id: "spirit-world",
-    experimentNo: "EXPERIMENT_005",
+    experimentNo: "EXPERIMENT_007",
     title: "The Art of Ghibli",
     tagline: "An immersive visual exploration of Studio Ghibli art",
     thumbnail: "/Work/spiritWorld/home.png",
@@ -163,7 +226,7 @@ export const projects: Project[] = [
   },
   {
     id: "lumi",
-    experimentNo: "EXPERIMENT_006",
+    experimentNo: "EXPERIMENT_008",
     title: "Luminescent",
     tagline: "An audio-reactive WebGL experience",
     thumbnail: "/Work/Luminescent/Luminescent.png",
@@ -186,15 +249,15 @@ export const projects: Project[] = [
   },
   {
     id: "cine-web",
-    experimentNo: "EXPERIMENT_007",
+    experimentNo: "EXPERIMENT_009",
     title: "Golden Hour",
     tagline: "A cinematic web experience",
     thumbnail: "/Work/cine/p2.png",
-    screenshots: ["/Work/cine/p1.png", "/Work/cine/p2.png"],
+    screenshots: ["/Work/cine/p1.png", "/Work/cine/p2.png", "/Work/cine/p3.png", "/Work/cine/p4.png"],
     liveUrl: "https://cinematic-web-experience.vercel.app/",
     status: "Live",
     description:
-      "A cinematic web experience inspired by the music of Guns N' Roses and the timeless aesthetic of classic anime, featuring a seamless transition from sun to moon with immersive atmospheric visuals and dynamic environmental effects",
+      "This project is an interactive, browser-based 3D cinematic narrative built to explore the boundaries of real-time web performance. Structured across four distinct visual acts, it guides users through dramatic shifts in atmospheric lighting, skybox color grading, and ambient density. The experience leverages advanced graphics techniques, combining custom particle dynamics with realistic environmental simulations. Designed with a modern frontend architecture, it bridges high-fidelity creative visual storytelling and performant web technologies. Ultimately, it serves as a technical showcase demonstrating how desktop-grade graphical depth can run smoothly inside standard web browsers",
     techStack: [
       { name: "React", icon: "⚛️" },
       { name: "DnD Kit", icon: "🧲" },
@@ -202,15 +265,15 @@ export const projects: Project[] = [
       { name: "TypeScript", icon: "🔵" },
     ],
     highlights: [
-      "Animated Day–Night Cycle",
-      "GSAP-Powered Scene Transitions",
-      "Dynamic Lighting & Atmosphere",
-      "Three.js Environment Rendering",
+      "4-Act Visual Progression",
+      "Custom Shader-Based Rain",
+      "Choreographed Camera & Motion",
+      "Threejs Responsive Design",
     ],
   },
   {
     id: "cine-mad",
-    experimentNo: "EXPERIMENT_008",
+    experimentNo: "EXPERIMENT_010",
     title: "CineMad",
     tagline: "A movie recommendation website",
     thumbnail: "/Work/Cinemad/p4.png",
@@ -237,7 +300,7 @@ export const projects: Project[] = [
   },
   {
     id: "tourism",
-    experimentNo: "EXPERIMENT_009",
+    experimentNo: "EXPERIMENT_011",
     title: "Tourism Website",
     tagline: "Experience the soul of Tamil Nadu through every journey.",
     thumbnail: "/Work/Tourism/t1.png",
