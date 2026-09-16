@@ -60,7 +60,7 @@ export const projects: Project[] = [
       "/Work/Luxe/lx6.png",
       "/Work/Luxe/lx7.png",
     ],
-    liveUrl: "https://luxe-interior.vercel.app/",
+    liveUrl: "https://luxe-interior-psi.vercel.app/",
     status: "Live",
     description:
       `The Luxe Interior web application is an interactive, editorial 3D architectural portfolio

@@ -10,7 +10,6 @@ export default function ProjectPage() {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const pageRef = useRef<HTMLDivElement>(null);
 
-  /* Scroll to top & reset active thumbnail on route change */
   useEffect(() => {
     window.scrollTo({ top: 0 });
     setActiveImageIndex(0);
@@ -53,20 +52,16 @@ export default function ProjectPage() {
 
   return (
     <div ref={pageRef} className="sharp-project-page exhibit-layout fade-in">
-      {/* Back to Lab Link */}
       <div className="exhibit-back-row exhibit-animate">
         <Link to="/" className="sharp-back-btn" id="back-to-lab">
           ← BACK TO LAB
         </Link>
       </div>
 
-      {/* Main 2-Column Exhibit Showcase */}
       <section className="exhibit-hero-grid">
-        {/* Left Column: Info Stack */}
         <div className="exhibit-info-col exhibit-animate">
           <h1 className="exhibit-title">{project.title}</h1>
 
-          {/* Status Badge */}
           <div className="exhibit-status-row">
             <span className="exhibit-status-pill">
               <span className="status-green-dot">●</span>
@@ -76,12 +71,10 @@ export default function ProjectPage() {
             </span>
           </div>
 
-          {/* Tagline Overview */}
           <p className="exhibit-tagline">{project.tagline}</p>
 
           <hr className="exhibit-divider" />
 
-          {/* FEATURES Section */}
           <div className="exhibit-meta-block">
             <h4 className="exhibit-meta-label">FEATURES</h4>
             <ul className="exhibit-features-list">
@@ -99,7 +92,6 @@ export default function ProjectPage() {
             </ul>
           </div>
 
-          {/* VIEW LIVE Section */}
           {project?.liveUrl && project?.liveUrl !== "null" && (
             <div className="exhibit-meta-block">
               <h4 className="exhibit-meta-label">VIEW LIVE</h4>
@@ -129,7 +121,6 @@ export default function ProjectPage() {
           )}
         </div>
 
-        {/* Right Column: Hero Media & Thumbnails */}
         <div className="exhibit-media-col exhibit-animate">
           <div className="exhibit-main-hero-card">
             <img
@@ -139,7 +130,6 @@ export default function ProjectPage() {
             />
           </div>
 
-          {/* Thumbnail Strip: Render ONLY IF more than 1 photo exists */}
           {screenshots.length > 1 && (
             <div className="exhibit-thumbnail-strip">
               {screenshots.map((src, idx) => (
@@ -166,7 +156,6 @@ export default function ProjectPage() {
 
       <hr className="exhibit-section-divider exhibit-animate" />
 
-      {/* Bottom Full-Width Section: About the Experiment */}
       <section className="exhibit-about-section exhibit-animate">
         <h3 className="exhibit-about-label">ABOUT THE EXPERIMENT</h3>
         <p className="exhibit-about-body">{project.description}</p>
