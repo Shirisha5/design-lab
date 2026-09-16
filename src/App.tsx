@@ -15,14 +15,12 @@ function AppLayout() {
       {loading && <Preloader onComplete={() => setLoading(false)} />}
 
       <div className="portfolio-app-wrapper">
-        {/* 100% Full-Width Header Line & Wrap */}
         <div className="full-width-header-wrap">
           <div className="header-inner-container">
             <LabHeader />
           </div>
         </div>
 
-        {/* Main Routed Content between Header & Footer */}
         <main className="portfolio-main-content">
           <Routes>
             <Route path="/" element={<DesignLab isLoaded={!loading} />} />
@@ -30,7 +28,6 @@ function AppLayout() {
           </Routes>
         </main>
 
-        {/* 100% Full-Width Footer Line & Wrap */}
         <div className="full-width-footer-wrap">
           <div className="footer-inner-container">
             <LabFooter />
