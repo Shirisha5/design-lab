@@ -60,10 +60,9 @@ export const projects: Project[] = [
       "/Work/Luxe/lx6.png",
       "/Work/Luxe/lx7.png",
     ],
-    liveUrl: "https://luxe-interior-psi.vercel.app/",
+    liveUrl: "https://luxe-interior-studio.vercel.app/",
     status: "Live",
-    description:
-      `The Luxe Interior web application is an interactive, editorial 3D architectural portfolio
+    description: `The Luxe Interior web application is an interactive, editorial 3D architectural portfolio
 engineered with React 19, Three.js, React Three Fiber (R3F), GSAP, and Studio Freight
 Lenis. It showcases a Scandinavian modern interior pavilion through real-time procedural
 wireframes, custom GLSL.`,
@@ -95,8 +94,7 @@ wireframes, custom GLSL.`,
     ],
     liveUrl: "https://pixiebloomlands.vercel.app/",
     status: "Live",
-    description:
-      `Pixie Bloomlands is an immersive, browser-based 3D microsite built with React Three Fiber and GSAP. Designed with an enchanted dark-fantasy aesthetic, the project guides visitors through a stylized woodland environment using scroll-driven camera flight paths, custom WebGL lighting, and real-time interactive low-poly assets.`,
+    description: `Pixie Bloomlands is an immersive, browser-based 3D microsite built with React Three Fiber and GSAP. Designed with an enchanted dark-fantasy aesthetic, the project guides visitors through a stylized woodland environment using scroll-driven camera flight paths, custom WebGL lighting, and real-time interactive low-poly assets.`,
     techStack: [
       { name: "Three.js", icon: "🟢" },
       { name: "GLSL", icon: "🟣" },
@@ -253,7 +251,12 @@ wireframes, custom GLSL.`,
     title: "Golden Hour",
     tagline: "A cinematic web experience",
     thumbnail: "/Work/cine/p2.png",
-    screenshots: ["/Work/cine/p1.png", "/Work/cine/p2.png", "/Work/cine/p3.png", "/Work/cine/p4.png"],
+    screenshots: [
+      "/Work/cine/p1.png",
+      "/Work/cine/p2.png",
+      "/Work/cine/p3.png",
+      "/Work/cine/p4.png",
+    ],
     liveUrl: "https://cinematic-web-experience.vercel.app/",
     status: "Live",
     description:
